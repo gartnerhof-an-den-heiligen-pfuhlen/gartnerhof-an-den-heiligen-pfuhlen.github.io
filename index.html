@@ -1,14 +1,21 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Jun 27 2023 06:58:40 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun Jul 02 2023 18:07:59 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61aa27f1e0736184b5e490c9" data-wf-site="61a3aa054a0a53a21b8f52cb">
+
 <head>
   <meta charset="utf-8">
   <title>Heilige Gärtnerei</title>
-  <meta content="We help supply Berlin&#x27;s demand for organic eco-friendly produce. Our Bio-Bauernmarkt is also an opportunity for Eco-Volunteering. Experience sustainable practices and enjoy the delicious treats of nature." name="description">
+  <meta
+    content="We help supply Berlin&#x27;s demand for organic eco-friendly produce. Our Bio-Bauernmarkt is also an opportunity for Eco-Volunteering. Experience sustainable practices and enjoy the delicious treats of nature."
+    name="description">
   <meta content="Heilige Gärtnerei" property="og:title">
-  <meta content="We help supply Berlin&#x27;s demand for organic eco-friendly produce. Our Bio-Bauernmarkt is also an opportunity for Eco-Volunteering. Experience sustainable practices and enjoy the delicious treats of nature." property="og:description">
+  <meta
+    content="We help supply Berlin&#x27;s demand for organic eco-friendly produce. Our Bio-Bauernmarkt is also an opportunity for Eco-Volunteering. Experience sustainable practices and enjoy the delicious treats of nature."
+    property="og:description">
   <meta content="Heilige Gärtnerei" property="twitter:title">
-  <meta content="We help supply Berlin&#x27;s demand for organic eco-friendly produce. Our Bio-Bauernmarkt is also an opportunity for Eco-Volunteering. Experience sustainable practices and enjoy the delicious treats of nature." property="twitter:description">
+  <meta
+    content="We help supply Berlin&#x27;s demand for organic eco-friendly produce. Our Bio-Bauernmarkt is also an opportunity for Eco-Volunteering. Experience sustainable practices and enjoy the delicious treats of nature."
+    property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -16,143 +23,770 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/heilige-gartnerei.webflow.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Inter:regular,500,600,700"]  }});</script>
-  <script src="https://use.typekit.net/eyy7klx.js" type="text/javascript"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <script src="https://use.typekit.net/wjo6itv.js" type="text/javascript"></script>
+  <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
-  <meta name="“robots”" content="“noindex”">
-  <!--  Countdown Timer  -->
-  <script>
-  (function () {
-    var deadline = '2023-10-16 00:01';
-    function pad(num, size) {
-      var s = "0" + num;
-      return s.substr(s.length - size);
-    }
-    function getTimeRemaining(endtime) {
-      var t = Date.parse(endtime) - Date.parse(new Date()),
-        seconds = Math.floor((t / 1000) % 60),
-        minutes = Math.floor((t / 1000 / 60) % 60),
-        hours = Math.floor((t / (1000 * 60 * 60)) % 24),
-        days = Math.floor(t / (1000 * 60 * 60 * 24));
-      return {
-        'total': t,
-        'days': days,
-        'hours': hours,
-        'minutes': minutes,
-        'seconds': seconds
-      };
-    }
-    function clock(id, endtime) {
-      var days = document.getElementById(id + '-days')
-      hours = document.getElementById(id + '-hours'),
-        minutes = document.getElementById(id + '-minutes'),
-        seconds = document.getElementById(id + '-seconds');
-      var timeinterval = setInterval(function () {
-        var t = getTimeRemaining(endtime);
-        if (t.total <= 0) {
-          clearInterval(timeinterval);
-        } else {
-          days.innerHTML = pad(t.days, 2);
-          hours.innerHTML = pad(t.hours, 2);
-          minutes.innerHTML = pad(t.minutes, 2);
-          seconds.innerHTML = pad(t.seconds, 2);
-        }
-      }, 1000);
-    }
-    clock('js-clock', deadline);
-  })();
-</script>
 </head>
+
 <body>
-  <div>
-    <div data-duration-in="300" data-duration-out="400" data-current="Tab 1" data-easing="ease-in-out-expo" class="tabs w-tabs">
-      <div class="tabs-content-2 w-tab-content">
-        <div data-w-tab="Tab 1" class="tab-pane-2 w-tab-pane w--tab-active">
-          <div class="slider-base">
-            <h1 class="slider-heading">Heilige Gärtnerei</h1>
-            <div class="temp-lower">Nachhaltiger Bauernhof <span class="temp-span">|</span> We plant to grow!<br></div>
-            <div class="slider-background background-rough"></div>
+  <div data-duration-in="300" data-duration-out="400" data-current="herzlich-willkommen-page"
+    data-easing="ease-in-out-expo" class="sections w-tabs">
+    <main class="pages w-tab-content">
+      <section data-w-tab="herzlich-willkommen-page" class="page-section w-tab-pane w--tab-active">
+        <div class="w-layout-blockcontainer page-container w-container">
+          <div class="page-content">
+            <h1 class="page-header-1">Gärtnerei an den<br><span class="startpage">Heiligen Pfühlen</span></h1>
+            <div class="page-subject"><strong>Nachhaltiger Bauernhof</strong><br></div>
           </div>
         </div>
-        <div data-w-tab="Tab 3" class="w-tab-pane">
-          <div class="slider-base">
-            <h1 class="slider-heading second">This Product is being<br><span class="temp-span other">carefully made for you</span><span class="temp-span"></span></h1>
-            <div class="slider-background background-03"></div>
-          </div>
-        </div>
-        <div data-w-tab="Tab 2" class="w-tab-pane">
-          <div class="slider-base">
-            <h1 class="slider-heading">+WWOOF.de<br>‍<span class="temp-span">+Worldpackers</span></h1>
-            <div class="slider-background background-02"></div>
-          </div>
-        </div>
-        <div data-w-tab="Tab 4" class="w-tab-pane">
-          <div class="slider-base verticle">
-            <h1 class="slider-heading last"><span class="temp-span">Launching</span> Soon!</h1>
-            <div class="responsive-flex">
-              <div id="js-clock" class="responsive-clock">
-                <div class="responsive-box">
-                  <div id="js-clock-days" class="clock-number">00</div>
-                  <div class="clock-label">DD</div>
+        <div class="page-cover page-1-image"></div>
+      </section>
+      <section data-w-tab="nachhaltiger-bauernhof-page" class="page-section w-tab-pane">
+        <div class="w-layout-blockcontainer page-container mobile-top w-container">
+          <div class="w-layout-grid content-grid">
+            <div class="content-intro">
+              <div class="content-mini">&quot;Our passion iS life&quot;</div>
+              <h2 class="content-h2"><strong>BIO-Bauernmarkt</strong></h2>
+              <p class="page-caption">Wir betreiben ein chemie- und GVO-frei Gemüseanbau. Wir machen uns täglich auf den
+                Weg, um Berlins Nachfrage nach Öko-Freundlich Produkten zu decken.</p>
+              <div class="button-flex">
+                <p class="page-caption">Besuchen Sie uns Samstags am Boxhagenerplatz, 10245 Berlin.</p>
+                <a href="https://goo.gl/maps/QTeDW1mo8QpoeCnX6" class="page-cta-btn w-inline-block">
+                  <div>Besuche uns</div>
+                </a>
+              </div>
+              <div class="caption-tags">
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong
+                    class="tag-strong">Öko-freundlich</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong class="tag-strong">GVO-frei</strong>
                 </div>
-                <div class="responsive-box">
-                  <div id="js-clock-hours" class="clock-number">00</div>
-                  <div class="clock-label">HH</div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong
+                    class="tag-strong">Nährstoffreich</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong
+                    class="tag-strong">Chemikalien-Frei</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong class="tag-strong">Lokal
+                    gewachsen</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong class="tag-strong">Ethische
+                    Beschaffung</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong
+                    class="tag-strong">Bauernhof-bis-Tisch</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong class="tag-strong">Artisan
+                    Produktion</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong
+                    class="tag-strong">Klimaschonend</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong class="tag-strong">Low-impact
+                    farming</strong></div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong class="tag-strong">Nachhaltig</strong>
                 </div>
-                <div class="responsive-box">
-                  <div id="js-clock-minutes" class="clock-number">00</div>
-                  <div class="clock-label">MM</div>
-                </div>
-                <div class="responsive-box">
-                  <div id="js-clock-seconds" class="clock-number">00</div>
-                  <div class="clock-label">SS</div>
+                <div class="caption-tag"><span class="tag-ico">✓</span> <strong class="tag-strong">Fair trade</strong>
                 </div>
               </div>
             </div>
-            <div class="slider-background"></div>
+            <div class="w-layout-grid grid-scroll">
+              <div id="w-node-db6db856-d050-7306-5cd5-6606a3ba4a7a-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/12356686_999167520145081_9122568918010030157_o-p-500.jpg 500w, images/12356686_999167520145081_9122568918010030157_o-p-800.jpg 800w, images/12356686_999167520145081_9122568918010030157_o.jpg 918w"
+                    src="images/12356686_999167520145081_9122568918010030157_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "12356686_999167520145081_9122568918010030157_o.jpg",
+      "fileName": "12356686_999167520145081_9122568918010030157_o.jpg",
+      "fileSize": 185815,
+      "height": 1224,
+      "url": "images/12356686_999167520145081_9122568918010030157_o.jpg",
+      "width": 918,
+      "type": "image"
+    }
+  ],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Zucchini</div>
+                    <div class="card-subcap">&quot;Cucurbita pepo&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--carbon" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 32 32">
+                          <path fill="currentColor" d="M16 24v-2a3.296 3.296 0 0 0 3-3h2a5.267 5.267 0 0 1-5 5Z"></path>
+                          <path fill="currentColor"
+                            d="M16 28a9.011 9.011 0 0 1-9-9a9.984 9.984 0 0 1 1.494-4.955l6.659-10.608a1.04 1.04 0 0 1 1.694 0l6.63 10.556A10.063 10.063 0 0 1 25 19a9.011 9.011 0 0 1-9 9Zm0-22.152l-5.782 9.208A7.977 7.977 0 0 0 9 19a7 7 0 0 0 14 0a8.062 8.062 0 0 0-1.248-3.995Z">
+                          </path>
+                        </svg></div>
+                    </div>
+                    <div class="symbol-divider"></div>
+                    <div data-tippy-content="Grows with full and partial sunshine." class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--ph" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 256 256">
+                          <path fill="currentColor"
+                            d="M156 72a76.2 76.2 0 0 0-20.26 2.73a55.63 55.63 0 0 0-9.41-11.54l9.51-13.57a8 8 0 1 0-13.11-9.18L113.22 54A55.9 55.9 0 0 0 88 48h-1.74l-2.89-16.29a8 8 0 1 0-15.75 2.77l2.88 16.34a56.1 56.1 0 0 0-23.27 14.85l-13.62-9.53a8 8 0 1 0-9.17 13.11L38 78.77A55.55 55.55 0 0 0 32 104v1.72l-16.29 2.88a8 8 0 0 0 1.38 15.88a8.24 8.24 0 0 0 1.39-.12l16.32-2.88a55.74 55.74 0 0 0 5.86 12.42A52 52 0 0 0 76 224h80a76 76 0 0 0 0-152ZM48 104a40 40 0 0 1 72.54-23.24a76.26 76.26 0 0 0-35.62 40a52.14 52.14 0 0 0-31 4.17A40 40 0 0 1 48 104Zm108 104H76a36 36 0 1 1 4.78-71.69c-.37 2.37-.63 4.79-.77 7.23a8 8 0 0 0 16 .92a58.91 58.91 0 0 1 1.88-11.81c0-.16.09-.32.12-.48A60.06 60.06 0 1 1 156 208Z">
+                          </path>
+                        </svg></div>
+                    </div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--tabler" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 24 24">
+                          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path d="M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572"></path>
+                            <path
+                              d="M12 6L8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a3.182 3.182 0 0 1 4.5 0l2.25 2.25m-7 3l2 2M15 13l2 2">
+                            </path>
+                          </g>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-ad4766fd-c429-ee40-ccf2-b6f92f97d7ab-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/12370646_999167153478451_1673396834201696458_o-p-500.jpg 500w, images/12370646_999167153478451_1673396834201696458_o-p-800.jpg 800w, images/12370646_999167153478451_1673396834201696458_o.jpg 1224w"
+                    src="images/12370646_999167153478451_1673396834201696458_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Äpfel</div>
+                    <div class="card-subcap">&quot;Malus pumila&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--ph" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 256 256">
+                          <g fill="currentColor">
+                            <path d="M184 128a56 56 0 1 1-56-56a56 56 0 0 1 56 56Z" opacity=".2"></path>
+                            <path
+                              d="M120 40v-8a8 8 0 0 1 16 0v8a8 8 0 0 1-16 0Zm72 88a64 64 0 1 1-64-64a64.07 64.07 0 0 1 64 64Zm-16 0a48 48 0 1 0-48 48a48.05 48.05 0 0 0 48-48ZM58.34 69.66a8 8 0 0 0 11.32-11.32l-8-8a8 8 0 0 0-11.32 11.32Zm0 116.68l-8 8a8 8 0 0 0 11.32 11.32l8-8a8 8 0 0 0-11.32-11.32ZM192 72a8 8 0 0 0 5.66-2.34l8-8a8 8 0 0 0-11.32-11.32l-8 8A8 8 0 0 0 192 72Zm5.66 114.34a8 8 0 0 0-11.32 11.32l8 8a8 8 0 0 0 11.32-11.32ZM40 120h-8a8 8 0 0 0 0 16h8a8 8 0 0 0 0-16Zm88 88a8 8 0 0 0-8 8v8a8 8 0 0 0 16 0v-8a8 8 0 0 0-8-8Zm96-88h-8a8 8 0 0 0 0 16h8a8 8 0 0 0 0-16Z">
+                            </path>
+                          </g>
+                        </svg></div>
+                    </div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--carbon" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 32 32">
+                          <path fill="currentColor" d="M16 24v-2a3.296 3.296 0 0 0 3-3h2a5.267 5.267 0 0 1-5 5Z"></path>
+                          <path fill="currentColor"
+                            d="M16 28a9.011 9.011 0 0 1-9-9a9.984 9.984 0 0 1 1.494-4.955l6.659-10.608a1.04 1.04 0 0 1 1.694 0l6.63 10.556A10.063 10.063 0 0 1 25 19a9.011 9.011 0 0 1-9 9Zm0-22.152l-5.782 9.208A7.977 7.977 0 0 0 9 19a7 7 0 0 0 14 0a8.062 8.062 0 0 0-1.248-3.995Z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_12812853-8e51-769e-4478-dc96daf9a6c1-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/13173547_1096540353741130_7376836068213449460_o-p-500.jpg 500w, images/13173547_1096540353741130_7376836068213449460_o-p-800.jpg 800w, images/13173547_1096540353741130_7376836068213449460_o-p-1080.jpg 1080w, images/13173547_1096540353741130_7376836068213449460_o.jpg 1536w"
+                    src="images/13173547_1096540353741130_7376836068213449460_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Erdbeeren</div>
+                    <div class="card-subcap">&quot;Fragaria&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--ph" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 256 256">
+                          <path fill="currentColor"
+                            d="m248.91 77.72l-20 6.49l12.34 17a8 8 0 1 1-12.94 9.4l-12.31-17l-12.34 17a8 8 0 0 1-12.94-9.4l12.34-17l-20-6.49A8 8 0 0 1 188 62.5l20 6.5V48a8 8 0 0 1 16 0v21l20-6.49a8 8 0 0 1 4.95 15.22ZM152 184a32 32 0 1 1-40-31v-33a8 8 0 0 1 16 0v33a32.06 32.06 0 0 1 24 31Zm-16 0a16 16 0 1 0-16 16a16 16 0 0 0 16-16Zm48 0a64 64 0 1 1-104-50V48a40 40 0 0 1 80 0v86a64.08 64.08 0 0 1 24 50Zm-16 0a48.08 48.08 0 0 0-20.58-39.4A8 8 0 0 1 144 138V48a24 24 0 0 0-48 0v90a8 8 0 0 1-3.42 6.56A48 48 0 1 0 168 184Z">
+                          </path>
+                        </svg></div>
+                    </div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--tabler" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 24 24">
+                          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path d="M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572"></path>
+                            <path
+                              d="M12 6L8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a3.182 3.182 0 0 1 4.5 0l2.25 2.25m-7 3l2 2M15 13l2 2">
+                            </path>
+                          </g>
+                        </svg></div>
+                    </div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--tabler" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 24 24">
+                          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2"
+                            d="m17 4l3 3m-1.5-1.5l-8 8m-2.224-2.216l4.44 4.44a.968.968 0 0 1 0 1.369l-2.704 2.704a4.108 4.108 0 0 1-5.809-5.81l2.704-2.703a.968.968 0 0 1 1.37 0z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-e97b7fe9-1271-909f-e4b8-c04ef391aab6-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/13483052_1117527481642417_6296307440089970374_o-p-500.jpg 500w, images/13483052_1117527481642417_6296307440089970374_o-p-800.jpg 800w, images/13483052_1117527481642417_6296307440089970374_o-p-1080.jpg 1080w, images/13483052_1117527481642417_6296307440089970374_o.jpg 1536w"
+                    src="images/13483052_1117527481642417_6296307440089970374_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Rote Rüben</div>
+                    <div class="card-subcap">&quot;Beta&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--iconoir" width="100%" height="100%"
+                          preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24">
+                          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5">
+                            <path stroke-linejoin="round" d="M21 20L3 14"></path>
+                            <path d="M16 10v1m-4-2v1M8 8v1"></path>
+                            <path stroke-linejoin="round" d="M3 21h18v-9a9 9 0 1 0-18 0v9Z"></path>
+                          </g>
+                        </svg></div>
+                    </div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--tabler" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 24 24">
+                          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path d="M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572"></path>
+                            <path
+                              d="M12 6L8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a3.182 3.182 0 0 1 4.5 0l2.25 2.25m-7 3l2 2M15 13l2 2">
+                            </path>
+                          </g>
+                        </svg></div>
+                    </div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy">
+                      <div class="symbol-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--ic" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 24 24">
+                          <path fill="currentColor"
+                            d="M19.5 11.97c.93 0 1.78.28 2.5.76V7.97c0-1.1-.9-2-2-2h-6.29l-1.06-1.06l1.06-1.06c.2-.2.2-.51 0-.71s-.51-.2-.71 0l-2.83 2.83c-.2.2-.2.51 0 .71c.2.2.51.2.71 0l1.06-1.06L13 6.68v2.29c0 1.1-.9 2-2 2h-.54a5.98 5.98 0 0 1 1.54 4c0 .34-.04.67-.09 1h3.14c.25-2.24 2.14-4 4.45-4z">
+                          </path>
+                          <path fill="currentColor"
+                            d="M19.5 12.97c-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5s3.5-1.57 3.5-3.5s-1.57-3.5-3.5-3.5zm0 5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5s1.5.67 1.5 1.5s-.67 1.5-1.5 1.5zM4 8.97h5c0-1.1-.9-2-2-2H4c-.55 0-1 .45-1 1c0 .56.45 1 1 1zm5.83 4.82l-.18-.47l.93-.35a4.92 4.92 0 0 0-2.31-2.43l-.4.89l-.46-.21l.4-.9c-.55-.21-1.17-.35-1.81-.35c-.53 0-1.04.11-1.52.26l.34.91l-.47.18L4 10.4a4.92 4.92 0 0 0-2.43 2.31l.89.4l-.21.46l-.9-.4a4.85 4.85 0 0 0-.35 1.8c0 .53.11 1.04.26 1.52l.91-.34l.18.47l-.93.35a4.92 4.92 0 0 0 2.31 2.43l.4-.89l.46.21l-.4.9c.57.22 1.18.35 1.82.35c.53 0 1.04-.11 1.52-.26l-.35-.91l.47-.18l.35.93a4.92 4.92 0 0 0 2.43-2.31l-.89-.4l.21-.46l.9.4c.22-.57.35-1.18.35-1.82c0-.53-.11-1.04-.26-1.52l-.91.35zm-2.68 3.96c-1.53.63-3.29-.09-3.92-1.62c-.63-1.53.09-3.29 1.62-3.92c1.53-.63 3.29.09 3.92 1.62c.64 1.53-.09 3.28-1.62 3.92z">
+                          </path>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_98bbb019-82a0-4868-332c-4e407bd10af0-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/13412151_1117527351642430_8309834826949502311_o-p-500.jpg 500w, images/13412151_1117527351642430_8309834826949502311_o-p-800.jpg 800w, images/13412151_1117527351642430_8309834826949502311_o-p-1080.jpg 1080w, images/13412151_1117527351642430_8309834826949502311_o.jpg 1536w"
+                    src="images/13412151_1117527351642430_8309834826949502311_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Courchette</div>
+                    <div class="card-subcap">&quot;Cucurbita pepo&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_77c4708c-fa09-98a0-5e3d-7dc0cb87fed6-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/13735708_1139907626071069_6440120654175123667_o-p-500.jpg 500w, images/13735708_1139907626071069_6440120654175123667_o-p-800.jpg 800w, images/13735708_1139907626071069_6440120654175123667_o-p-1080.jpg 1080w, images/13735708_1139907626071069_6440120654175123667_o-p-1600.jpg 1600w, images/13735708_1139907626071069_6440120654175123667_o.jpg 2048w"
+                    src="images/13735708_1139907626071069_6440120654175123667_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Kürbis</div>
+                    <div class="card-subcap">&quot;Cucurbita maxima&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_5bff370d-4d84-77de-958d-4a1cf8dd3f5d-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/12961425_1077923428936156_8322740629351362089_o-p-500.jpg 500w, images/12961425_1077923428936156_8322740629351362089_o-p-800.jpg 800w, images/12961425_1077923428936156_8322740629351362089_o-p-1080.jpg 1080w, images/12961425_1077923428936156_8322740629351362089_o.jpg 1224w"
+                    src="images/12961425_1077923428936156_8322740629351362089_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Courchette</div>
+                    <div class="card-subcap">&quot;Cucurbita pepo&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div data-tippy-content="These seeds go on crop rotation" class="symbol-tippy">
+                      <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                          class="iconify iconify--ic" width="100%" height="100%" preserveaspectratio="xMidYMid meet"
+                          viewbox="0 0 24 24">
+                          <path fill="currentColor"
+                            d="M12.87 11.81A2.5 2.5 0 0 1 15 8h1c1.51 0 2-1 2-1s.55 6-3 6c-.49 0-.94-.14-1.32-.38c-.24.64-.59 1.76-.76 2.96c1.26.22 2.28.89 2.77 1.77A6.505 6.505 0 0 0 18.5 12h3c0 5.24-4.26 9.5-9.5 9.5S2.5 17.24 2.5 12S6.76 2.5 12 2.5V0l4 4l-4 4V5.5c-3.58 0-6.5 2.92-6.5 6.5c0 2.21 1.11 4.17 2.81 5.35c.51-.92 1.63-1.62 2.98-1.8c-.09-.69-.26-1.42-.49-2.03c-.35.3-.8.48-1.3.48c-1.1 0-2-.9-2-2v-.99c0-.56-.19-1.09-.5-1.51c0 0 4.45-.23 4.5 2.5c0 .29-.06.56-.17.8c-.42-.32-.86-.6-1.33-.8c.58.43 1.37 1.37 2 2.6c.67-1.62 1.68-3.27 3-4.6c-.76.52-1.47 1.12-2.13 1.81z">
+                          </path>
+                        </svg></div>
+                    </div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_0652ac7e-101b-a080-74c2-a67f5e1959d7-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/13063319_1083392331722599_8571779364450208851_o-p-500.jpg 500w, images/13063319_1083392331722599_8571779364450208851_o-p-800.jpg 800w, images/13063319_1083392331722599_8571779364450208851_o-p-1080.jpg 1080w, images/13063319_1083392331722599_8571779364450208851_o.jpg 1536w"
+                    src="images/13063319_1083392331722599_8571779364450208851_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Courchette</div>
+                    <div class="card-subcap">&quot;Cucurbita pepo&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_31167861-62ee-9072-ab44-d8d005d205fc-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/13235515_1100687659993066_6621308368557484459_o-p-500.jpg 500w, images/13235515_1100687659993066_6621308368557484459_o-p-800.jpg 800w, images/13235515_1100687659993066_6621308368557484459_o-p-1080.jpg 1080w, images/13235515_1100687659993066_6621308368557484459_o-p-1600.jpg 1600w, images/13235515_1100687659993066_6621308368557484459_o.jpg 1918w"
+                    src="images/13235515_1100687659993066_6621308368557484459_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Courchette</div>
+                    <div class="card-subcap">&quot;Cucurbita pepo&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_5f5c9880-f1ce-eb02-acd4-1307ab5ba0e1-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/13458634_1117527811642384_1083839241065906862_o-p-500.jpg 500w, images/13458634_1117527811642384_1083839241065906862_o-p-800.jpg 800w, images/13458634_1117527811642384_1083839241065906862_o-p-1080.jpg 1080w, images/13458634_1117527811642384_1083839241065906862_o-p-1600.jpg 1600w, images/13458634_1117527811642384_1083839241065906862_o.jpg 2048w"
+                    src="images/13458634_1117527811642384_1083839241065906862_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Courchette</div>
+                    <div class="card-subcap">&quot;Cucurbita pepo&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <a href="#" class="symbol-tippy w-inline-block"></a>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_22f5b9a3-afe4-ffef-291b-ee267e9a804c-b5e490c9" class="card-wrap">
+                <a href="#" class="card-image w-inline-block w-lightbox"><img
+                    sizes="(max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 95vw, 81vw"
+                    srcset="images/12339316_999167853478381_7572672005818859170_o-p-500.jpg 500w, images/12339316_999167853478381_7572672005818859170_o-p-800.jpg 800w, images/12339316_999167853478381_7572672005818859170_o.jpg 918w"
+                    src="images/12339316_999167853478381_7572672005818859170_o.jpg" loading="lazy" alt=""
+                    class="card-cover">
+                  <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                </a>
+                <div class="card-caption">
+                  <div class="card-titles">
+                    <div class="card-cap">Courchette</div>
+                    <div class="card-subcap">&quot;Cucurbita pepo&quot;</div>
+                  </div>
+                  <div class="card-symbols">
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                    <div class="symbol-divider"></div>
+                    <div class="symbol-tippy"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-embed">
+            <!--  Custom Scroller  -->
+            <style>
+              .grid-scroll::-webkit-scrollbar {
+                width: 4px;
+                margin-left: -6px;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                height: 98%;
+              }
+
+              .grid-scroll::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                border-radius: 4px;
+              }
+
+              .grid-scroll::-webkit-scrollbar-thumb {
+                border-radius: 4px;
+                background: #5fe6b0;
+              }
+
+              .grid-scroll::-webkit-scrollbar-corner {
+                display: none;
+                height: 0px;
+                width: 0px;
+              }
+            </style>
           </div>
         </div>
-      </div>
-      <div class="tabs-menu-2 w-tab-menu">
-        <a data-w-tab="Tab 1" class="standard-tab w-inline-block w-tab-link w--current"><img src="images/Brush.1.svg" alt="" class="tab-image">
-          <div><strong>Herzlich Willkommen</strong></div>
-          <div class="load-bar-base">
-            <div class="load-bar"></div>
+        <div class="page-cover page-2-image"></div>
+      </section>
+      <section data-w-tab="eco-volunteering-page" class="page-section w-tab-pane">
+        <div class="w-layout-blockcontainer page-container w-container">
+          <div class="w-layout-grid gallery-scroll">
+            <div id="w-node-_41f3e500-d48e-94c8-2089-4222059ee567-b5e490c9" class="gallery-wrap">
+              <a href="#" class="card-image w-inline-block w-lightbox"><img
+                  sizes="(max-width: 479px) 93vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 81vw"
+                  srcset="images/13392209_1111455435582955_5116181812830658405_o-2-p-500.jpg 500w, images/13392209_1111455435582955_5116181812830658405_o-2-p-800.jpg 800w, images/13392209_1111455435582955_5116181812830658405_o-2-p-1080.jpg 1080w, images/13392209_1111455435582955_5116181812830658405_o-2-p-1600.jpg 1600w, images/13392209_1111455435582955_5116181812830658405_o-2.jpg 2000w"
+                  src="images/13392209_1111455435582955_5116181812830658405_o-2.jpg" loading="lazy" alt=""
+                  class="card-cover">
+                <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "eco-friendly-fun-times"
+}</script>
+              </a>
+              <div class="gallery-txt">
+                <div class="gallery-title">Holiday Brunch</div>
+                <div class="gallery-date">Easter 2019</div>
+              </div>
+            </div>
+            <div id="w-node-_4f8c7b19-7d2c-5d84-9b05-aa9e3a1a7f03-b5e490c9" class="gallery-wrap">
+              <a href="#" class="card-image w-inline-block w-lightbox"><img
+                  sizes="(max-width: 479px) 93vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 81vw"
+                  srcset="images/12376144_999168350144998_1276804435742271417_n-p-500.jpg 500w, images/12376144_999168350144998_1276804435742271417_n-p-800.jpg 800w, images/12376144_999168350144998_1276804435742271417_n.jpg 960w"
+                  src="images/12376144_999168350144998_1276804435742271417_n.jpg" loading="lazy" alt=""
+                  class="card-cover">
+                <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "eco-friendly-fun-times"
+}</script>
+              </a>
+              <div class="gallery-txt">
+                <div class="gallery-title">Farm Actvities</div>
+                <div class="gallery-date">Easter 2008</div>
+              </div>
+            </div>
+            <div id="w-node-_51bc3a04-4b20-58d4-4110-0f7eec690073-b5e490c9" class="gallery-wrap">
+              <a href="#" class="card-image w-inline-block w-lightbox"><img
+                  sizes="(max-width: 479px) 93vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 81vw"
+                  srcset="images/13002452_1077923075602858_2199101445968838589_o-p-500.jpg 500w, images/13002452_1077923075602858_2199101445968838589_o-p-800.jpg 800w, images/13002452_1077923075602858_2199101445968838589_o-p-1080.jpg 1080w, images/13002452_1077923075602858_2199101445968838589_o.jpg 1224w"
+                  src="images/13002452_1077923075602858_2199101445968838589_o.jpg" loading="lazy" alt=""
+                  class="card-cover">
+                <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "eco-friendly-fun-times"
+}</script>
+              </a>
+              <div class="gallery-txt">
+                <div class="gallery-title">Hand Sewn Land</div>
+                <div class="gallery-date">Summer 2008</div>
+              </div>
+            </div>
+            <div id="w-node-_44fdfb54-cda4-5920-3f7a-b161f43b1abd-b5e490c9" class="gallery-wrap">
+              <a href="#" class="card-image w-inline-block w-lightbox"><img
+                  sizes="(max-width: 479px) 93vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 81vw"
+                  srcset="images/13392209_1111455435582955_5116181812830658405_o-2-p-500.jpg 500w, images/13392209_1111455435582955_5116181812830658405_o-2-p-800.jpg 800w, images/13392209_1111455435582955_5116181812830658405_o-2-p-1080.jpg 1080w, images/13392209_1111455435582955_5116181812830658405_o-2-p-1600.jpg 1600w, images/13392209_1111455435582955_5116181812830658405_o-2.jpg 2000w"
+                  src="images/13392209_1111455435582955_5116181812830658405_o-2.jpg" loading="lazy" alt=""
+                  class="card-cover">
+                <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "eco-friendly-fun-times"
+}</script>
+              </a>
+              <div class="gallery-txt">
+                <div class="gallery-title">Holiday Brunch</div>
+                <div class="gallery-date">Easter 2008</div>
+              </div>
+            </div>
+            <div id="w-node-ac31bcf0-74a8-119f-d805-6388ae104084-b5e490c9" class="gallery-wrap">
+              <a href="#" class="card-image w-inline-block w-lightbox"><img
+                  sizes="(max-width: 479px) 93vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 81vw"
+                  srcset="images/12339424_999170426811457_1891978995130512737_o-p-500.jpg 500w, images/12339424_999170426811457_1891978995130512737_o-p-800.jpg 800w, images/12339424_999170426811457_1891978995130512737_o.jpg 1224w"
+                  src="images/12339424_999170426811457_1891978995130512737_o.jpg" loading="lazy" alt=""
+                  class="card-cover">
+                <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "eco-friendly-fun-times"
+}</script>
+              </a>
+              <div class="gallery-txt">
+                <div class="gallery-title">Khe utrur itten&#x27;s </div>
+                <div class="gallery-date">Easter 2008</div>
+              </div>
+            </div>
+            <div id="w-node-_45d13148-dd59-e5d1-f690-d6c9b599814d-b5e490c9" class="gallery-wrap">
+              <a href="#" class="card-image w-inline-block w-lightbox"><img
+                  sizes="(max-width: 479px) 93vw, (max-width: 991px) 94vw, (max-width: 1439px) 95vw, 81vw"
+                  srcset="images/12362918_999168160145017_7144926932460820993_o-p-500.jpg 500w, images/12362918_999168160145017_7144926932460820993_o-p-800.jpg 800w, images/12362918_999168160145017_7144926932460820993_o-p-1080.jpg 1080w, images/12362918_999168160145017_7144926932460820993_o.jpg 1224w"
+                  src="images/12362918_999168160145017_7144926932460820993_o.jpg" loading="lazy" alt=""
+                  class="card-cover">
+                <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "eco-friendly-fun-times"
+}</script>
+              </a>
+              <div class="gallery-txt">
+                <div class="gallery-title">Our Wooly Sheep</div>
+                <div class="gallery-date">Winter 2012</div>
+              </div>
+            </div>
           </div>
-        </a>
-        <a data-w-tab="Tab 3" class="standard-tab w-inline-block w-tab-link"><img src="images/Copy-Grid-Plus.1.svg" alt="" class="tab-image">
-          <div><strong>Bio-Bauernmarkt</strong></div>
-          <div class="load-bar-base">
-            <div class="load-bar"></div>
+          <div class="w-embed">
+            <!--  Custom Scroller  -->
+            <style>
+              .gallery-scroll::-webkit-scrollbar {
+                width: 4px;
+                margin-left: -6px;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                height: 98%;
+              }
+
+              .gallery-scroll::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                border-radius: 4px;
+              }
+
+              .gallery-scroll::-webkit-scrollbar-thumb {
+                border-radius: 4px;
+                background: #5fe6b0;
+              }
+
+              .gallery-scroll::-webkit-scrollbar-corner {
+                display: none;
+                height: 0px;
+                width: 0px;
+              }
+            </style>
           </div>
-        </a>
-        <a data-w-tab="Tab 2" class="standard-tab w-inline-block w-tab-link">
-          <div class="load-bar-base">
-            <div class="load-bar"></div>
-          </div><img src="images/Color-Design-Profile.svg" alt="" class="tab-image">
-          <div><strong>Eco-Volunteering</strong></div>
-        </a>
-        <a data-w-tab="Tab 4" class="standard-tab w-inline-block w-tab-link">
-          <div class="load-bar-base">
-            <div class="load-bar"></div>
-          </div><img src="images/Mobile-Devices-Messages.svg" alt="" class="tab-image">
-          <div>Contact us (Plan a stay)</div>
-        </a>
-      </div>
-    </div>
-    <div class="temp-legal-flex">
-      <div class="temp-legal-standards">Copyright © 2023 <a href="https://design-mindfulness.com/highlight" class="temp-link">Bio-Brandenburg</a>. All rights reserved.</div>
-      <div class="temp-legal-standards">Built with care by <a href="https://www.founddesigns.de/?utm_source=design-mindfulness&amp;utm_medium=website&amp;utm_id=2022" target="_blank" class="temp-link">Founddesigns.de</a> | <a href="#" class="temp-link">Terms</a> | <a href="#" class="temp-link">Privacy</a>
-      </div>
+        </div>
+        <div class="page-cover background-02"></div>
+      </section>
+      <section data-w-tab="Plan-a-stay-page" class="page-section w-tab-pane">
+        <div class="w-layout-blockcontainer page-container contact-combo-class w-container">
+          <div class="contact-grid">
+            <div class="contact-block">
+              <div class="page-header">Contact Us</div>
+              <div class="contac-text">
+                <a href="tel:+4917222598160" class="link">(+49) 0172-2259-8160</a>
+              </div>
+              <div class="contac-text">
+                <a href="mailto:Heilige.Gartnerei@gmail.com " class="link">Heilige.Gartnerei@gmail.com </a>
+              </div>
+              <div class="contac-text">‍<a href="https://goo.gl/maps/X43i59iGCYzZJftv6" target="_blank"
+                  class="link">WilmersdorferStr. 3 15518 Briesen</a>
+              </div>
+            </div>
+            <div id="w-node-_3bcca26d-9a99-2fbb-942d-1715ada74c3e-b5e490c9" class="contact-block contact-a">
+              <div class="page-header">Directions</div>
+              <p class="page-paragraph">From Berlin Central Station (<a href="https://goo.gl/maps/LUp13qaHah4wTDfN9"
+                  target="_blank" class="link">Hauptbahnhof</a>), We recommend using the 🚃 <span
+                  class="travel-span">S3</span>/<span class="travel-span">S5</span>/<span
+                  class="travel-span">S7</span>/<span class="travel-span">S9</span> to get to <a
+                  href="https://goo.gl/maps/T4Q6NNMJDfB8Tvav7" target="_blank" class="link">Berlin Ostbahnhof</a>. Now
+                you can board the 🚄 <span class="travel-span">RE1 - Frankfurt (Oder)</span>. Travel all the way until
+                you get to <a href="https://goo.gl/maps/tqQN1Hz9inAAavbv8" target="_blank" class="link">Fürstenwalde
+                  (SpreE)</a>. find the 🚍<span class="travel-span">434 BUS</span> (be careful it only operates during
+                weekdays) NOW ride until you reach <a href="https://goo.gl/maps/VfJMYU3Jpf3A5AHo7" target="_blank"
+                  class="link">Wilmersdorf (bei Briesen)</a>. If you want, someone from our team can meet you, or simply
+                walk (7 minutes) until you get to House number 3.</p>
+              <div class="page-directions w-embed w-iframe"><iframe
+                  src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d311435.8271399511!2d13.575161855858966!3d52.42312346426613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x47a84ef0a0f0b9b9%3A0x5f322a788486640a!2sOstkreuz%2C%2010317%20Berlin!3m2!1d52.503166!2d13.4693341!4m5!1s0x470785a8886b6ae9%3A0xe98fe1739c1070be!2sG%C3%A4rtnerhof%20An%20Den%20Heiligen%20Pf%C3%BChlen%2C%20Wilmersdorfer%20Str.%203%2C%2015518%20Briesen%20(Mark)!3m2!1d52.3867866!2d14.2683255!5e0!3m2!1sen!2sde!4v1687984576237!5m2!1sen!2sde"
+                  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+            <div class="contact-block">
+              <div class="page-header">Plan a Stay</div>
+              <a href="https://www.worldpackers.com/locations/gartnerei-an-den-heiligen-tumpel" target="_blank"
+                class="page-network w-inline-block"><img sizes="(max-width: 767px) 83vw, 222px"
+                  srcset="images/gartnerhof-an-den-heiligen-pfuhlen-worldpackers-p-500.png 500w, images/gartnerhof-an-den-heiligen-pfuhlen-worldpackers-p-800.png 800w, images/gartnerhof-an-den-heiligen-pfuhlen-worldpackers.png 1000w"
+                  alt="Worldpackers Logo" src="images/gartnerhof-an-den-heiligen-pfuhlen-worldpackers.png"
+                  loading="eager" class="worldpackers-img"></a>
+              <a href="https://wwoof.de/de/host/12492-market-garden-livestock-farm-orchard-farm-family-farm-community-farm"
+                target="_blank" class="page-network w-inline-block"><img
+                  sizes="(max-width: 479px) 83vw, (max-width: 691px) 74vw, (max-width: 767px) 512px, 222px"
+                  srcset="images/gartnerhof-an-den-heiligen-pfuhlen-wwoof-germany-p-500.png 500w, images/gartnerhof-an-den-heiligen-pfuhlen-wwoof-germany.png 512w"
+                  alt="WWOOF Germany Logo" src="images/gartnerhof-an-den-heiligen-pfuhlen-wwoof-germany.png"
+                  loading="lazy" class="wwoof-germany-img"></a>
+            </div>
+          </div>
+        </div>
+        <div class="page-cover"></div>
+      </section>
+    </main>
+    <nav class="navbar w-tab-menu">
+      <a data-w-tab="herzlich-willkommen-page" class="section-link w-inline-block w-tab-link w--current">
+        <div>Herzlich Willkommen</div>
+        <div class="bar-base">
+          <div class="load-bar"></div>
+        </div>
+      </a>
+      <a data-w-tab="nachhaltiger-bauernhof-page" class="section-link w-inline-block w-tab-link">
+        <div><strong>Bio-Bauernmarkt</strong></div>
+        <div class="bar-base">
+          <div class="load-bar"></div>
+        </div>
+      </a>
+      <a data-w-tab="eco-volunteering-page" class="section-link w-inline-block w-tab-link">
+        <div class="bar-base">
+          <div class="load-bar"></div>
+        </div>
+        <div><strong>Eco-Volunteering</strong></div>
+      </a>
+      <a data-w-tab="Plan-a-stay-page" class="section-link w-inline-block w-tab-link">
+        <div class="bar-base">
+          <div class="load-bar"></div>
+        </div>
+        <div>Plan a stay</div>
+      </a>
+    </nav>
+  </div>
+  <address class="site-logos">
+    <a href="https://www.facebook.com/gaertnereiandenheiligenpfuehlen" target="_blank"
+      class="site-networks w-inline-block"><img src="images/gartnerhof-an-den-heiligen-pfuhlen-facebook.png"
+        loading="lazy" width="90" sizes="90px" alt="Facebook Logo"
+        srcset="images/gartnerhof-an-den-heiligen-pfuhlen-facebook-p-500.png 500w, images/gartnerhof-an-den-heiligen-pfuhlen-facebook-p-800.png 800w, images/gartnerhof-an-den-heiligen-pfuhlen-facebook.png 1024w"
+        class="facebook-img"></a>
+    <a href="https://www.worldpackers.com/locations/gartnerei-an-den-heiligen-pfulen/" target="_blank"
+      class="site-networks w-inline-block"><img src="images/gartnerhof-an-den-heiligen-pfuhlen-worldpackers.png"
+        loading="lazy" width="143" sizes="143px" alt="Worldpackers Logo"
+        srcset="images/gartnerhof-an-den-heiligen-pfuhlen-worldpackers-p-500.png 500w, images/gartnerhof-an-den-heiligen-pfuhlen-worldpackers-p-800.png 800w, images/gartnerhof-an-den-heiligen-pfuhlen-worldpackers.png 1000w"
+        class="worldpackers-img"></a>
+    <a href="https://wwoof.de/de/host/12492-market-garden-livestock-farm-orchard-farm-family-farm-community-farm"
+      target="_blank" class="site-networks w-inline-block"><img
+        src="images/gartnerhof-an-den-heiligen-pfuhlen-wwoof-germany.png" loading="lazy" width="100" sizes="100px"
+        alt="WWOOF Germany Logo"
+        srcset="images/gartnerhof-an-den-heiligen-pfuhlen-wwoof-germany-p-500.png 500w, images/gartnerhof-an-den-heiligen-pfuhlen-wwoof-germany.png 512w"
+        class="wwoof-germany-img"></a>
+  </address>
+  <div class="site-owner">
+    <div class="site-text">Copyright © 2023 <a href="https://goo.gl/maps/YePSKWqDnNagJcBn7" target="_blank"
+        class="link">Gärtnerhof An Den Heiligen Pfühlen</a>. All rights reserved.</div>
+    <div class="site-text">This website does not store cookies <span class="span">|</span> Built with care by <a
+        href="https://www.founddesigns.de/?utm_source=heilige-gartnerei&amp;utm_medium=website&amp;utm_campaign=crumbs&amp;utm_id=2023"
+        target="_blank" class="link">Founddesigns.de</a>
     </div>
   </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61a3aa054a0a53a21b8f52cb" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61a3aa054a0a53a21b8f52cb"
+    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script><!--  Tippy Tooltips  -->
+  <script src="https://unpkg.com/popper.js@1"></script>
+  <script src="https://unpkg.com/tippy.js@4"></script>
+  <script>
+    tippy('.symbol-tippy', { // Use class or id
+      animation: 'scale',         // See docs for more options (there are a few nice ones 😉)
+      duration: 200,              // Duration for ToolTip Animation
+      arrow: true,                // Add ToolTip Arrow
+      delay: [0, 50],             // First # = delay in, second # = delay out
+      arrowType: 'sharp',         // Sharp or 'round' or remove for none
+      theme: 'light',           // Dark is the default
+      maxWidth: 280,              // Max width in pixels for the tooltip
+    })
+  </script>
 </body>
+
 </html>
