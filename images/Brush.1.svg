@@ -1,9 +1,0 @@
-<svg id="Brush.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="Group_2" data-name="Group 2">
-    <path id="Path_12" data-name="Path 12" d="M9,16.64V12a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v4.64" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-    <path id="Path_13" data-name="Path 13" d="M14.442,11.1V7.165a.5.5,0,0,0-.686-.464L9.856,8.26a.25.25,0,0,0-.157.232v2.557" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-    <path id="Path_14" data-name="Path 14" d="M18.718,5.282a9.5,9.5,0,1,1-13.435,0,9.5,9.5,0,0,1,13.435,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-    <path id="Path_15" data-name="Path 15" d="M17.177,19.959a3.674,3.674,0,0,0-3.672-3.636h-3.01a3.674,3.674,0,0,0-3.672,3.636" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-  </g>
-  <path id="Path_16" data-name="Path 16" d="M0,0H24V24H0Z" fill="none"/>
-</svg>
